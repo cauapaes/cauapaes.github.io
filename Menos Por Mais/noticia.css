@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+  }
+
+  /* Remove a margem e o preenchimento padrão de todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+  }
+  
+  /* Estiliza o título principal da página */
+  h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Define o estilo base do corpo da página */
+  body {
+    background-color: rgb(191, 190, 190); /* Cor de fundo clara e suave */
+    font-family: Arial, sans-serif; /* Fonte principal do texto */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilo do campo de busca */
+  input {
+    width: 300px;
+    height: 30px;
+    margin: 10px auto;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  /*Doug*/
+  
+  header {
+   
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    display: flex;              /* Torna os <li> horizontais */
+    list-style: none;           /* Remove os marcadores */
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;    /* Colocar na esquerda os itens no nav */
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+
+.informacoes{
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+h4{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+}
+footer{
+    height: 120px;
+    background-color: black;
+}
+
