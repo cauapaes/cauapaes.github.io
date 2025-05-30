@@ -6,7 +6,7 @@ body {
   }
 
   header {
-    background-color: #333;
+    background-color: antiquewhite;
     padding: 10px 0;
   }
 
@@ -31,6 +31,12 @@ body {
   }
 
   nav ul li a:hover {
-    background-color: #555;
+    background-color: antiquewhite;
     border-radius: 4px;
   }
+
+.sobre_nos_titulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
