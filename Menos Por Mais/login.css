@@ -1,0 +1,21 @@
+/* Remove a margem e o preenchimento padrão de todos os elementos da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Garante que padding e border não aumentem a largura total */
+  }
+
+/* Define o estilo base do corpo da página */
+body {
+    background-color: antiquewhite; /* Cor de fundo clara e suave */
+    font-family: Arial, sans-serif; /* Fonte principal do texto */
+    padding: 20px; /* Espaçamento interno */
+  }
+
+  h1{
+    text-align: center;
+  }
+
+
+
+  
