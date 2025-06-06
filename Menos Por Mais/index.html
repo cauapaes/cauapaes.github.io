@@ -1,106 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="PT-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Menos por Mais</title>
-  <link rel="stylesheet" href="style.css">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="noticia.html">Sobre</a></li>
-        <li><a href="#">Categorias</a></li>
-      </ul>
-    </nav>
-  </header>
+    <div class="login-container">
+    <h1 >Login</h1>
+    <form>
+        <div class="form-group">
+            <label for="usuario">Usuário:</label>
+            <input type="text" name="usuario" id="" placeholder="Digite seu usuário">
+        </div>
+        <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="text" name="senha" id="" placeholder="Digite sua senha">
+        </div>
 
-  <h1>Menos por Mais</h1>
 
-  <input class="search-input" type="text" placeholder="Buscar produtos..." />
 
-  <ul class="produtos-list dois-colunas">
-    <!-- Produto 1 - Celular -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.magazineluiza.com.br/smartphone-samsung-galaxy-s23-ultra-256gb-preto-5g-12gb-ram-68-cam-quadrupla-selfie-12mp/p/232855300/te/s23u/">
-      <img src="https://a-static.mlcdn.com.br/800x560/smartphone-samsung-galaxy-s23-ultra-256gb-preto-5g-12gb-ram-68-cam-quadrupla-selfie-12mp/magazineluiza/232855300/e339efd56b869f6a89daf54439feefda.jpg" alt="Smartphone Samsung Galaxy S23 Ultra 256GB Preto">
-      <div class="descricao">
-        <strong>Smartphone Samsung Galaxy S23 H+ - preto</strong>
-        <p class="promoção">R$ 3.898,80 no pix</p>
-        <p class="preço original"><del>R$ 9.499,00</del></p>
-      </div>
-      <a href="#" class="link-produto">Realizar compra</a>
-    </li>
-
-    <!-- Produto 2 - Smartwatch -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.magazineluiza.com.br/relogio-champion-smart-bluetooth-4-0-preto-pulseira-preta-ch50006p-smartwatch/p/bfab6jb33c/te/smtw/">
-      <img src="https://a-static.mlcdn.com.br/800x560/relogio-champion-smart-bluetooth-4-0-preto-pulseira-preta-ch50006p-smartwatch/rbmrelogios/ch50006p/3e8054c53488e3348434247d53fd9ebe.jpeg" alt="Relógio Champion Smart Bluetooth 4.0 Preto Pulseira Preta">
-      <div class="descricao">
-        <strong>Relógio Champion Smart Bluetooth 4.0 Preto Pulseira</strong>
-        <p class="promoção">R$ 365,97 no pix</p>
-        <p class="preço original"><del>R$ 385,23</del></p>
-      </div>
-      <a href="#" class="link-produto">Realizar compra</a>
-    </li>
-
-    <!-- Produto 3 - Notebook -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.magazineluiza.com.br/notebook-lenovo-ideapad-1i-intel-core-i5-8gb-ram-ssd-512gb-windows-11-156-15iau7/p/238006100/in/leip/">
-      <img src="https://a-static.mlcdn.com.br/800x560/notebook-lenovo-ideapad-1i-intel-core-i5-8gb-ram-ssd-512gb-windows-11-156-15iau7/magazineluiza/238006100/17c42205bcab59aafd9cdda3d73036da.jpg" alt="Notebook Lenovo IdeaPad">
-      <div class="descricao">
-        <strong>Notebook Lenovo IdeaPad</strong>
-        <p class="promoção">R$ 2.991,12 no Pix</p>
-        <p class="preço original"><del>R$ 3.799,00</del></p>
-      </div>
-      <a href="#" class="link-produto">Realizar compra</a>
-    </li>
-
-    <!-- Produto 4 - TV -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.magazineluiza.com.br/smart-tv-32-hd-led-semp-32r6610-wi-fi-3-hdmi-1-usb/p/238305000/et/elit/">
-      <img src="https://a-static.mlcdn.com.br/800x560/smart-tv-32-hd-led-semp-32r6610-wi-fi-3-hdmi-1-usb/magazineluiza/238305000/cd6aff7b9343ca4bb09bdab1cd947304.jpg" alt="Smart TV 32 HD LED Semp 32R6610">
-      <div class="descricao">
-        <strong>Smart TV 32" HD</strong>
-        <p class="promoção">R$ 996,55 no Pix</p>
-        <p class="preço original"><del>R$ 1.049,00</del></p>
-      </div>
-      <a href="#" class="link-produto">Realizar compra</a>
-    </li>
-
-    <!-- Produto 5 - Monitor -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.magazineluiza.com.br/monitor-gamer-aoc27g2e1-27-full-hd-ips-100hz-1ms-hdmi-displayport/p/237272500/in/mogm/">
-      <img src="https://a-static.mlcdn.com.br/800x560/monitor-gamer-aoc27g2e1-27-full-hd-ips-100hz-1ms-hdmi-displayport/magazineluiza/237272500/68705061f9c6ad10c5e1bc223f2a5ba7.jpg" alt="Monitor Gamer AOC27G2E1 27 Full HD IPS 100Hz">
-      <div class="descricao">
-        <strong>Monitor Gamer AOC27G2E1</strong>
-        <p class="promoção">R$ 996,55 no Pix</p>
-        <p class="preço original"><del>R$ 1.049,00</del></p>
-      </div>
-      <a href="#" class="link-produto">Realizar compra</a>
-    </li>
-
-    <!-- Produto 6 - Camiseta -->
-    <li class="produto-item coluna-esquerda" data-url="https://www.hering.com.br/camiseta-basica-masculina-manga-curta-em-malha-h-140mn0aen/p?idsku=62877">
-      <img src="https://www.hering.com.br/_next/image?url=https%3A%2F%2Fhering.vtexassets.com%2Farquivos%2Fids%2F3902660-880-auto&w=1440&q=100" alt="Camiseta branca">
-      <div class="descricao">
-        <strong>Camiseta básica masculina manga curta em malha H+ - Branco</strong>
-        <p class="preco-promocional">R$ 39,99</p>
-        <p class="preco-original"><del>R$ 79,99</del></p>
-      </div>
-      <a href="#" class="link-produto">Comprar Agora</a>
-    </li>
-
-    <!-- Produto 7 - Short -->
-    <li class="produto-item coluna-direita" data-url="https://produto.mercadolivre.com.br/MLB-2614339639-short-praia-masculino-bermuda-vero-academia-treino-corrida-_JM">
-      <img src="https://http2.mlstatic.com/D_NQ_NP_2X_771409-MLB52332889803_112022-F-short-praia-masculino-bermuda-vero-academia-treino-corrida.webp" alt="Short Praia Masculino">
-      <div class="descricao">
-        <strong>Short Praia Masculino Bermuda Vero</strong>
-        <p class="preco-promocional">R$ 49,90</p>
-        <p class="preco-original"><del>R$ 79,90</del></p>
-      </div>
-      <a href="#" class="link-produto">Comprar Agora</a>
-    </li>
-  </ul>
-
-  <script src="script.js"></script>
+        <button><a href="index.html" class="entrar">Entra</a></button>
+    </form>
+    </div>
 </body>
 </html>
